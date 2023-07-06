@@ -1,0 +1,33 @@
+{
+  "1": {
+    "data": {
+      "id": 1,
+      "name": "Node 1",
+      "type": "A"
+    },
+    "edges": {
+      "2": true
+    }
+  },
+  "2": {
+    "data": {
+      "id": 2,
+      "name": "Node 2",
+      "type": "B"
+    },
+    "edges": {
+      "1": true,
+      "3": true
+    }
+  },
+  "3": {
+    "data": {
+      "id": 3,
+      "name": "Node 3",
+      "type": "A"
+    },
+    "edges": {
+      "2": true
+    }
+  }
+}
